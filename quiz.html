@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cyber Quiz</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/quiz.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">🛡 CyberShield</h1>
+
+<nav aria-label="Main Navigation">
+
+<a href="index.html">Home</a>
+<a href="learn.html">Learn</a>
+<a href="quiz.html" class="active">Quiz</a>
+<a href="toolkit.html">Toolkit</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="quiz-container">
+
+<h1>Cybersecurity Quiz</h1>
+
+<div class="quiz-top">
+
+<div class="timer">
+
+<strong>⏱ Time Left:</strong>
+
+<span id="timer">60</span>s
+
+</div>
+
+<div class="score">
+Score:
+<span id="score">0</span>
+</div>
+
+</div>
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+<div class="question-box">
+
+<h2 id="question"></h2>
+
+<div id="answers"></div>
+
+<div id="explanation"></div>
+
+</div>
+
+<button id="nextBtn">Next Question</button>
+
+</section>
+
+<script src="js/quiz.js"></script>
+
+<footer>
+
+<p>
+
+© 2026 CyberShield | Cybersecurity Awareness Project
+
+</p>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Toolkit</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/toolkit.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">🛡 CyberShield</h1>
+
+<nav aria-label="Main Navigation">
+
+<a href="index.html">Home</a>
+<a href="learn.html">Learn</a>
+<a href="quiz.html">Quiz</a>
+<a href="toolkit.html" class="active">Toolkit</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="toolkit">
+
+<h1>Cyber Security Toolkit</h1>
+
+<div class="tool-card">
+
+<h2>🔑 Password Generator</h2>
+
+<label for="length">Password Length</label>
+
+<input type="range" min="6" max="24" value="12" id="length">
+
+<p>Length : <span id="lengthValue">12</span></p>
+
+<input type="text" id="password" readonly>
+
+<button onclick="generatePassword()">
+
+Generate Password
+
+</button>
+
+</div>
+
+<div class="tool-card">
+
+<h2>💪 Password Strength Checker</h2>
+
+<input type="text" id="checkPassword" placeholder="Enter Password">
+
+<button onclick="checkStrength()">
+
+Check Strength
+
+</button>
+
+<h3 id="strength"></h3>
+
+</div>
+
+<div class="tool-card">
+
+<h2>🌐 URL Safety Checker</h2>
+
+<input type="text" id="urlInput" placeholder="https://example.com">
+
+<button onclick="checkURL()">
+
+Check URL
+
+</button>
+
+<h3 id="urlResult"></h3>
+
+</div>
+
+</section>
+
+<script src="js/toolkit.js"></script>
+
+<footer>
+    <p>© 2026 CyberShield</p>
+    <p>Cybersecurity Awareness Project</p>
+    <p>Created by Bhavya Prajapati</p>
+</footer>
+
+</body>
+</html>

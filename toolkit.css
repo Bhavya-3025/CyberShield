@@ -1,0 +1,111 @@
+.toolkit{
+
+padding:60px 8%;
+
+}
+
+.toolkit h1{
+
+text-align:center;
+
+margin-bottom:40px;
+
+}
+
+.tool-card{
+
+background:#111827;
+
+padding:30px;
+
+margin-bottom:30px;
+
+border-radius:15px;
+
+}
+
+.tool-card input{
+
+width:100%;
+
+padding:15px;
+
+margin:15px 0;
+
+border:none;
+
+border-radius:10px;
+
+font-size:18px;
+
+}
+
+.tool-card button{
+
+padding:12px 30px;
+
+background:#00e5ff;
+
+border:none;
+
+font-weight:bold;
+
+cursor:pointer;
+
+border-radius:8px;
+
+margin-top:10px;
+
+}
+
+.tool-card button:hover{
+
+background:#00bcd4;
+
+}
+
+#strength{
+
+margin-top:20px;
+
+color:#00e5ff;
+
+}
+
+#urlResult{
+
+margin-top:20px;
+
+font-weight:bold;
+
+}
+
+.tool-card input:focus{
+
+outline:none;
+
+box-shadow:0 0 10px #00e5ff;
+
+}
+
+#length{
+
+cursor:pointer;
+
+}
+
+@media(max-width:768px){
+
+.toolkit{
+
+padding:30px 5%;
+
+}
+
+.tool-card{
+
+padding:20px;
+
+}
+
+}

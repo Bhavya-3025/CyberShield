@@ -1,0 +1,67 @@
+.dashboard{
+
+padding:70px;
+
+text-align:center;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.card{
+
+background:#111827;
+
+padding:40px;
+
+border-radius:15px;
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 20px #00e5ff;
+
+}
+
+.card h1{
+
+margin-top:20px;
+
+color:#00e5ff;
+
+font-size:45px;
+
+}
+
+.dashboard h1{
+    margin-bottom:20px;
+}
+
+.card h1{
+    letter-spacing:1px;
+}
+
+@media(max-width:768px){
+
+.dashboard{
+
+padding:40px 20px;
+
+}
+
+}
